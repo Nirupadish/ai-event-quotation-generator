@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AI Event Quotation Generator
 
-# Run and deploy your AI Studio app
+An interactive sales intelligence platform that analyzes event requirements, assesses budget feasibility, and generates structured event quotations with AI-driven optimization rules.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/4ca75d15-309b-4ef4-9a37-ad00cf244875
+- 📋 Smart event requirement analysis
+- 💰 Budget feasibility assessment
+- 📊 Structured quotation generation
+- 🤖 AI-driven optimization recommendations
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+- [Node.js](https://nodejs.org/) (v18 or higher)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Nirupadish/ai-event-quotation-generator.git
+   cd ai-event-quotation-generator
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables:
+   - Copy `.env.example` to `.env.local`
+   - Add your `GEMINI_API_KEY` to `.env.local`
+
+4. Run the app:
+   ```bash
+   npm run dev
+   ```
+
+The app will be available at `http://localhost:5173`.
+
+## Tech Stack
+
+- **Frontend:** React + TypeScript + Vite
+- **AI:** Google Gemini API
+- **Styling:** CSS
+
+## License
+
+MIT
