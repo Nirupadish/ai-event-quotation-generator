@@ -1,0 +1,6 @@
+{
+  "name": "AI Event Quotation Generator",
+  "description": "An interactive sales intelligence platform that analyzes requirements, assesses budget feasibility, and generates structured event quotations with AI-driven optimization rules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
